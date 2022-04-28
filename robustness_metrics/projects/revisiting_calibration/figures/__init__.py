@@ -33,6 +33,7 @@ from robustness_metrics.projects.revisiting_calibration.figures import ece_bias
 from robustness_metrics.projects.revisiting_calibration.figures import imagenet_c
 from robustness_metrics.projects.revisiting_calibration.figures import ood_comparison
 from robustness_metrics.projects.revisiting_calibration.figures import pretrain_size_steps_sweep
+from robustness_metrics.projects.revisiting_calibration.figures import NEW_clip_imagenet_c_per_dist
 
 # Raise error for potentially unsafe chained assignments in pandas:
 _pd.options.mode.chained_assignment = "raise"
@@ -47,4 +48,5 @@ __all__ = [
     "imagenet_c",
     "ood_comparison",
     "pretrain_size_steps_sweep",
+    "NEW_clip_imagenet_c_per_dist"
 ]
